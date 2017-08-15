@@ -48,6 +48,20 @@ namespace ConsoleCuentasBancarias
             #endregion
             Console.ReadKey();
 
+            //Cadenas Vacias
+            string cadena = string.Empty;
+
+            string cadena2 = "";
+
+            if (string.IsNullOrEmpty(cadena)) {
+                Console.WriteLine("Cadena Vacia");
+            }
+
+            if (cadena2=="")
+            {
+                Console.WriteLine("Cadena Vacia");
+            }
+
         }
     }
 }
